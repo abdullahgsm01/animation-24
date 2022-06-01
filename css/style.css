@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&display=swap');
+body,*{
+      font-family: 'League Spartan', sans-serif;
+}
+.footer-conten span {
+	display: inline-block;
+	height: 2px;
+	width: 75px;
+	background: #ddd;
+}
+.card-area{
+      background:url(../img/transpatent-bg.png) no-repeat left;
+}
+.footer-bg {
+	background:#4b5a8cac url(../img/footer-bg.jpg) no-repeat top center;
+	font-size: cover;
+	background-size: cover;
+	padding: 35vh 0;
+      background-blend-mode: darken;
+}
+.product-cord span{
+      display: inline-block;
+      height:3px;
+      width:30px;
+      background:#5252f0;
+}
+.logo i {
+	color: #fff;
+	background-color: #5252f0;
+	padding: 30px;
+	font-size: 2.5rem;
+	border-radius: 65px 51px 65px 0;
+}
