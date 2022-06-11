@@ -5,30 +5,51 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
       <link rel="stylesheet" href="css/bootstrap.css">
       <link rel="stylesheet" href="css/style.css">
       <title>animation-24</title>
 </head>
 <body>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-sm header navbar-light">
             <div class="container">
-                  <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+                  <a class="navbar-brand header-img" href="javascript:void(0)"><img src="img/lfwfacademy-logo-1.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                         <span class="navbar-toggler-icon"></span>
                         </button>
-                  <div class="collapse navbar-collapse" id="mynavbar">
-                        <ul class="navbar-nav">
+                  <div class="collapse navbar-collapse ms-auto" id="mynavbar">
+                        <ul class="navbar-nav ms-auto me-5">
                               <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0)">Link</a>
+                                    <a class="nav-link active" href="javascript:void(0)">Home</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0)">Link</a>
+                                    <a class="nav-link" href="javascript:void(0)">About</a>
                               </li>
                               <li class="nav-item">
-                                    <a class="nav-link" href="javascript:void(0)">Link</a>
+                                    <a class="nav-link" href="javascript:void(0)">Service</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">Portfolio</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                                      Pages
+                                    </a>
+                                    <ul class="dropdown-menu sub-menu">
+                                          <li><a class="sub-menu-item" href="#">404 page Error</a></li>
+                                    </ul>
+                              </li>
+                          
+                              <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">Blog</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0)">Contact</a>
                               </li>
                         </ul>
-                        <button class="btn btn-primary" type="button">Search</button>
+                        <div class="header-btn ms-5">
+                              <button class="master-btn" type="button">Get It Now</button>
+                        </div>
                   </div>
             </div>
       </nav>
@@ -36,16 +57,16 @@
       <div class="hero-area">
             <div class="container-fluid">
                   <div class="row">
-                        <div class="col-lg-6">
-                              <div class="hero-content">
-                                    <h1>Take your business to next level.</h1>
-                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque a recusandae. Ad libero nihil id hic sequi adipisci laudantium.</p>
-                                    <button>Discover More</button>  
+                        <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                              <div class="hero-content w-75">
+                                    <h1>Take your business to next <br> level.</h1>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque a recusandae. Ad libero nihil id hic sequi adipisci laudantium. Lorem ipsum dolor sit amet consectetur</p>
+                                    <button class="btn btn-outline-primary mt-4">Discover More</button>  
                               </div>
                         </div>
-                        <div class="col-lg-6">
-                              <div class="hero-img">
-                                    <img class="w-100" src="img/hero-image.jpg" alt="">
+                        <div class="col-lg-6 g-0">
+                              <div class="hero-img overflow-hidden g-0">
+                                    <img class="w-100 rounded-circle position-relative" src="img/hero-image.jpg" alt="">
                               </div>
                         </div>
                   </div>
@@ -53,22 +74,25 @@
       </div>
       <!-- hero area End -->
       <!-- future area Start -->
-      <div class="futer-area">
-            <div class="container">
+      <div class="futer-area my-5">
+            <div class="container-fluid">
                   <div class="row">
-                        <div class="col-lg-12">
-                              <div class="h4 text-muted">CORE FEATURES</div>
-                              <h2 class="">Privide Awesome Service With Our brand <br>Tools </h2>
-                              <span></span>
-                              <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime repellendus quos fugiat. Atque ea quas quaerat delectus ad rerum aut?</p>
+                        <div class="col-lg-12 d-flex justify-content-around">
+                              <div class="futer-content col-lg-6">
+                                    <h4>CORE FEATURES</h4>
+                                    <h2 class="">Privide Awesome Service With Our brand Tools </h2>
+                                    <span></span>
+                                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime repellendus quos fugiat. Atque ea quas quaerat delectus ad rerum aut?</p>
+                              </div>
+                              <div class="col-lg-3"></div>
                         </div>
                   </div>
             </div>
       </div>
       <!-- Future area End -->
       <div class="card-area">
-            <div class="container">
-                  <div class="row">
+            <div class="container-fluid">
+                  <div class="row care-wrapper mb-5">
                         <div class="col-lg-3">
                               <div class="product-cord">
                                     <h3>Discover,Explore the product</h3>
@@ -76,7 +100,7 @@
                                           <i class="lni lni-microscope"></i>
                                     </div>
                                     <span></span>
-                                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                               </div>
                         </div>
                         <div class="col-lg-3">
@@ -86,7 +110,7 @@
                                           <i class="lni lni-ux"></i>
                                     </div>
                                     <span></span>
-                                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                               </div>
                         </div>
                         <div class="col-lg-3">
@@ -96,7 +120,7 @@
                                           <i class="lni lni-graph"></i>
                                     </div>
                                     <span></span>
-                                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                               </div>
                         </div>
                         <div class="col-lg-3">
@@ -106,28 +130,27 @@
                                           <i class="lni lni-blackboard"></i>
                                     </div>
                                     <span></span>
-                                    <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
                               </div>
                         </div>
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-3"></div>
                   </div>
             </div>
       </div>
       <!-- Future area End -->
       <footer>
             <div class="footer-bg">
-                  <div class="container">
+                  <div class="container pt-5">
                         <div class="row">
-                              <div class="col-lg-5 m-auto">
-                                    <div class="footer-conten text-center text-white">
+                              <div class="col-lg-6 m-auto">
+                                    <div class="footer-conten text-center text-white mt-5">
                                           <h5>CREATE YOUR OWN EXPERIENCE</h5>
                                           <h3>Ready To Grow Faster?</h3>
                                           <span></span>
-                                          <p class="lead">Lorem ipsum dolor sit amet consecteturadipisicing elit. Voluptatibus laudantiumpraesentium, sed est eum doloremquedolores similique.</p>
-                                          <div class="logo">
-
+                                          <p class="lead text-white">Lorem ipsum dolor sit amet consecteturadipisicing elit. Voluptatibus laudantiumpraesentium, sed est eum doloremquedolores similique.</p>
+                                          <div class="footer-logo">
+                                                <a class="play-animation-btn" href="#">
+                                                      <i class="fas fa-play-circle"></i>
+                                                  </a>
                                           </div>
                                     </div>
                               </div>
